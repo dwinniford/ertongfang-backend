@@ -12,6 +12,7 @@ var corsOptions = {
   }
 
 var app = express();
+
 app.use(cors(corsOptions))
 app.use(logger('dev'));
 app.use(express.json());
