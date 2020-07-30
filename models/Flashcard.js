@@ -14,4 +14,4 @@ const flashcardSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('Flashcard', storeSchema)
+module.exports = mongoose.model('Flashcard', flashcardSchema)
